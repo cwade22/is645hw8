@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>Sample Form</h2>
+  <form action="/action_page.php">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" value="John Doe"><br>
+    
+
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email" value="JDoe@gmail.com"><br><br>
+
+    <label for="payment">Payment Type:</label><br>
+
+    <input type="radio" id="cash" name="cash" value="cash">
+  <label for="cash">Cash</label><br>
+  <input type="radio" id="Credit Card" name="credit card" value="Credit Card">
+  <label for="Credit Card">Credit Card</label><br>
+  <input type="radio" id="Google Pay" name="google pay" value="Google Pay">
+  <label for="Google Pay">Google Pay</label><br>
+  <input type="radio" id="Apple Pay" name="apple pay" value="Apple Pay">
+  <label for="apple Pay">Apple Pay</label><br>
+
+
+  <label for="promo">Promos:</label><br>
+  <input type="checkbox" id="optin" name="optin" value="optin">
+  <label for="optin"> Sign Me Up for Promos!</label><br>
+
+  <label for="PreferedLocation">Preferred Location:</label>
+  <select id="PreferedLocation" name="PreferedLocation">
+    <option value="LA">Los Angeles</option>
+    <option value="OC">Orange County/option>
+    <option value="Riv">Riverside</option>
+    <option value="SD">San Diego</option>
+  </select><br><br>
+
+  <input type="submit" value="Submit">
+  <button type="cancel" value="cancel">Cancel</button>
+</form> 
+
+</body>
+</html>
